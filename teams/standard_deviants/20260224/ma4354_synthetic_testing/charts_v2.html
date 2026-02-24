@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html><head>
+<title>V2 Evaluation Charts</title>
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head><body>
+<h1>V2 Evaluation Charts</h1>
+<h2>Score Distributions</h2>
+<div id="chart_1" style="width:100%;height:400px;margin-bottom:30px;"></div>
+<script>Plotly.newPlot("chart_1", [{"name": "Strongly Disagree", "x": ["Overall", "compliance_hawk", "skeptical_vet", "sprint_consultant", "striving_academic"], "y": [0, 0, 0, 0, 0], "type": "bar", "marker": {"color": "#d32f2f"}}, {"name": "Disagree", "x": ["Overall", "compliance_hawk", "skeptical_vet", "sprint_consultant", "striving_academic"], "y": [0, 0, 0, 0, 0], "type": "bar", "marker": {"color": "#ff7043"}}, {"name": "Neutral", "x": ["Overall", "compliance_hawk", "skeptical_vet", "sprint_consultant", "striving_academic"], "y": [0, 0, 0, 0, 0], "type": "bar", "marker": {"color": "#bdbdbd"}}, {"name": "Agree", "x": ["Overall", "compliance_hawk", "skeptical_vet", "sprint_consultant", "striving_academic"], "y": [15, 2, 11, 1, 1], "type": "bar", "marker": {"color": "#66bb6a"}}, {"name": "Strongly Agree", "x": ["Overall", "compliance_hawk", "skeptical_vet", "sprint_consultant", "striving_academic"], "y": [45, 13, 4, 14, 14], "type": "bar", "marker": {"color": "#2e7d32"}}], {
+  title: "V2 Resonance",
+  barmode: "stack",
+  yaxis: {title: "Count"},
+  legend: {orientation: "h", y: -0.2},
+  margin: {b: 100}
+});</script>
+
+<div id="chart_2" style="width:100%;height:400px;margin-bottom:30px;"></div>
+<script>Plotly.newPlot("chart_2", [{"name": "Strongly Disagree", "x": ["Overall", "compliance_hawk", "skeptical_vet", "sprint_consultant", "striving_academic"], "y": [0, 0, 0, 0, 0], "type": "bar", "marker": {"color": "#d32f2f"}}, {"name": "Disagree", "x": ["Overall", "compliance_hawk", "skeptical_vet", "sprint_consultant", "striving_academic"], "y": [0, 0, 0, 0, 0], "type": "bar", "marker": {"color": "#ff7043"}}, {"name": "Neutral", "x": ["Overall", "compliance_hawk", "skeptical_vet", "sprint_consultant", "striving_academic"], "y": [12, 1, 10, 0, 1], "type": "bar", "marker": {"color": "#bdbdbd"}}, {"name": "Agree", "x": ["Overall", "compliance_hawk", "skeptical_vet", "sprint_consultant", "striving_academic"], "y": [13, 5, 3, 3, 2], "type": "bar", "marker": {"color": "#66bb6a"}}, {"name": "Strongly Agree", "x": ["Overall", "compliance_hawk", "skeptical_vet", "sprint_consultant", "striving_academic"], "y": [35, 9, 2, 12, 12], "type": "bar", "marker": {"color": "#2e7d32"}}], {
+  title: "V2 Intent",
+  barmode: "stack",
+  yaxis: {title: "Count"},
+  legend: {orientation: "h", y: -0.2},
+  margin: {b: 100}
+});</script>
+
+<div id="chart_3" style="width:100%;height:400px;margin-bottom:30px;"></div>
+<script>Plotly.newPlot("chart_3", [{"name": "Strongly Disagree", "x": ["Overall", "compliance_hawk", "skeptical_vet", "sprint_consultant", "striving_academic"], "y": [0, 0, 0, 0, 0], "type": "bar", "marker": {"color": "#d32f2f"}}, {"name": "Disagree", "x": ["Overall", "compliance_hawk", "skeptical_vet", "sprint_consultant", "striving_academic"], "y": [0, 0, 0, 0, 0], "type": "bar", "marker": {"color": "#ff7043"}}, {"name": "Neutral", "x": ["Overall", "compliance_hawk", "skeptical_vet", "sprint_consultant", "striving_academic"], "y": [16, 3, 11, 1, 1], "type": "bar", "marker": {"color": "#bdbdbd"}}, {"name": "Agree", "x": ["Overall", "compliance_hawk", "skeptical_vet", "sprint_consultant", "striving_academic"], "y": [19, 7, 4, 3, 5], "type": "bar", "marker": {"color": "#66bb6a"}}, {"name": "Strongly Agree", "x": ["Overall", "compliance_hawk", "skeptical_vet", "sprint_consultant", "striving_academic"], "y": [25, 5, 0, 11, 9], "type": "bar", "marker": {"color": "#2e7d32"}}], {
+  title: "V2 Conversion Confidence",
+  barmode: "stack",
+  yaxis: {title: "Count"},
+  legend: {orientation: "h", y: -0.2},
+  margin: {b: 100}
+});</script>
+
+<div id="chart_4" style="width:100%;height:350px;margin-bottom:30px;"></div>
+<script>Plotly.newPlot("chart_4", [{
+  x: ["Too Expensive", "Fair", "Good Deal"], y: [0, 45, 15],
+  type: "bar", marker: {color: ["#d32f2f", "#f57c00", "#2e7d32"]}
+}], {title: "V2 Price Perception", yaxis: {title: "Count"}});</script>
+
+<div id="chart_5" style="width:100%;height:350px;margin-bottom:30px;"></div>
+<script>Plotly.newPlot("chart_5", [{
+  x: ["Wrong", "Partial", "Nailed It"], y: [0, 0, 60],
+  type: "bar", marker: {color: ["#d32f2f", "#f57c00", "#2e7d32"]}
+}], {title: "V2 Clarity Accuracy", yaxis: {title: "Count"}});</script>
+
+<div id="chart_6" style="width:100%;height:350px;margin-bottom:30px;"></div>
+<script>Plotly.newPlot("chart_6", [{
+  x: ["Compliance Hawk", "Skeptical Vet", "Sprint Consultant", "Striving Academic"], y: [0, 0, 0, 0],
+  type: "bar", marker: {color: "#d32f2f"}
+}], {
+  title: "V2 Dealbreaker Rate by Segment",
+  yaxis: {title: "%", range: [0, 100]},
+  margin: {b: 120, l: 60}
+});</script>
+
+<h2>Cross-Version Comparison</h2>
+<div id="chart_7" style="width:100%;height:450px;margin-bottom:30px;"></div>
+<script>Plotly.newPlot("chart_7", [{"name": "Resonance", "x": ["V1", "V2"], "y": [68, 100], "type": "scatter", "mode": "lines+markers", "line": {"color": "#7e57c2", "width": 3}, "marker": {"size": 10}}, {"name": "Intent", "x": ["V1", "V2"], "y": [57, 80], "type": "scatter", "mode": "lines+markers", "line": {"color": "#1976d2", "width": 3}, "marker": {"size": 10}}, {"name": "Conversion", "x": ["V1", "V2"], "y": [42, 73], "type": "scatter", "mode": "lines+markers", "line": {"color": "#2e7d32", "width": 3}, "marker": {"size": 10}}], {
+  title: "Agree+ % Across Versions",
+  yaxis: {title: "Agree + Strongly Agree %", range: [0, 100]},
+  xaxis: {title: "Version"},
+  legend: {orientation: "h", y: -0.15}
+});</script>
+
+<div id="chart_8" style="width:100%;height:400px;margin-bottom:30px;"></div>
+<script>Plotly.newPlot("chart_8", [{
+  x: ["V1", "V2"], y: [15, 0],
+  type: "scatter", mode: "lines+markers",
+  line: {color: "#d32f2f", width: 3}, marker: {size: 10},
+  fill: "tozeroy", fillcolor: "rgba(211,47,47,0.1)"
+}], {
+  title: "Dealbreaker % Across Versions",
+  yaxis: {title: "%", range: [0, 60]},
+  xaxis: {title: "Version"}
+});</script>
+
+<div id="chart_9" style="width:100%;height:400px;margin-bottom:30px;"></div>
+<script>Plotly.newPlot("chart_9", [{
+  type: "funnel",
+  y: ["Resonance", "Intent", "Conversion"],
+  x: [100, 80, 73],
+  textinfo: "value+percent initial",
+  textposition: "inside",
+  marker: {color: ["#7e57c2", "#1976d2", "#2e7d32"]}
+}], {
+  title: "V2 Conversion Funnel (Agree+ %)",
+  margin: {l: 130, r: 40, t: 60, b: 40}
+});</script>
+
+<div id="chart_10" style="width:100%;height:400px;margin-bottom:30px;"></div>
+<script>Plotly.newPlot("chart_10", [
+  {name:"V1", x:["compliance_hawk", "skeptical_vet", "sprint_consultant", "striving_academic"], y:[87, 7, 93, 87], type:"bar", marker:{color:"rgba(126,87,194,0.5)"}},
+  {name:"V2", x:["compliance_hawk", "skeptical_vet", "sprint_consultant", "striving_academic"], y:[100, 100, 100, 100], type:"bar", marker:{color:"#7e57c2"}}
+], {
+  title: "Resonance Agree+ % by Bucket (V1 vs V2)",
+  barmode: "group",
+  yaxis: {title: "%", range: [0, 100]},
+  legend: {orientation: "h", y: -0.2},
+  margin: {b: 100}
+});</script>
+<div id="chart_11" style="width:100%;height:400px;margin-bottom:30px;"></div>
+<script>Plotly.newPlot("chart_11", [
+  {name:"V1", x:["compliance_hawk", "skeptical_vet", "sprint_consultant", "striving_academic"], y:[60, 0, 87, 80], type:"bar", marker:{color:"rgba(25,118,210,0.5)"}},
+  {name:"V2", x:["compliance_hawk", "skeptical_vet", "sprint_consultant", "striving_academic"], y:[93, 33, 100, 93], type:"bar", marker:{color:"#1976d2"}}
+], {
+  title: "Intent Agree+ % by Bucket (V1 vs V2)",
+  barmode: "group",
+  yaxis: {title: "%", range: [0, 100]},
+  legend: {orientation: "h", y: -0.2},
+  margin: {b: 100}
+});</script>
+<div id="chart_12" style="width:100%;height:400px;margin-bottom:30px;"></div>
+<script>Plotly.newPlot("chart_12", [
+  {name:"V1", x:["compliance_hawk", "skeptical_vet", "sprint_consultant", "striving_academic"], y:[27, 0, 73, 67], type:"bar", marker:{color:"rgba(46,125,50,0.5)"}},
+  {name:"V2", x:["compliance_hawk", "skeptical_vet", "sprint_consultant", "striving_academic"], y:[80, 27, 93, 93], type:"bar", marker:{color:"#2e7d32"}}
+], {
+  title: "Conversion Agree+ % by Bucket (V1 vs V2)",
+  barmode: "group",
+  yaxis: {title: "%", range: [0, 100]},
+  legend: {orientation: "h", y: -0.2},
+  margin: {b: 100}
+});</script>
+
+</body></html>

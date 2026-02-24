@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html><head>
+<meta charset="utf-8">
+<title>V2 Synthetic User Testing Report</title>
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<style>
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+       max-width: 1100px; margin: 0 auto; padding: 20px 40px; color: #333; line-height: 1.6; }
+h1 { border-bottom: 3px solid #1976d2; padding-bottom: 10px; }
+h2 { color: #1976d2; margin-top: 40px; border-bottom: 1px solid #e0e0e0; padding-bottom: 5px; }
+h3 { color: #555; margin-top: 25px; }
+table { border-collapse: collapse; width: 100%; margin: 15px 0; }
+th, td { border: 1px solid #ddd; padding: 8px 12px; text-align: left; }
+th { background: #f5f5f5; font-weight: 600; }
+tr:nth-child(even) { background: #fafafa; }
+.metric-cards { display: flex; gap: 15px; margin: 20px 0; flex-wrap: wrap; }
+.metric-card { flex: 1; min-width: 140px; padding: 15px; border-radius: 8px; text-align: center; }
+.metric-card .value { font-size: 2em; font-weight: 700; }
+.metric-card .label { font-size: 0.85em; color: #666; margin-top: 4px; }
+.metric-card .sublabel { font-size: 0.75em; color: #999; margin-top: 2px; }
+.card-purple { background: #ede7f6; color: #4527a0; }
+.card-blue { background: #e3f2fd; color: #1565c0; }
+.card-green { background: #e8f5e9; color: #2e7d32; }
+.card-red { background: #ffebee; color: #c62828; }
+.narrative { margin: 15px 0; }
+.narrative ul { margin: 5px 0; }
+.narrative li { margin: 4px 0; }
+.chart-explainer { color: #555; font-size: 0.95em; margin: 5px 0 15px 0; padding: 8px 12px;
+                   background: #f8f9fa; border-left: 3px solid #1976d2; }
+.methodology { background: #f8f9fa; padding: 15px 20px; border-radius: 8px; margin: 15px 0;
+               font-size: 0.95em; line-height: 1.7; }
+.methodology strong { color: #1976d2; }
+.bucket-name { font-style: italic; }
+.segment-header { display: flex; align-items: baseline; gap: 15px; margin-top: 30px; margin-bottom: 5px; }
+.segment-header h3 { margin: 0; }
+.segment-stats { font-size: 0.9em; color: #666; }
+.segment-stats .good { color: #2e7d32; font-weight: 600; }
+.segment-stats .mid { color: #1976d2; font-weight: 600; }
+.segment-stats .bad { color: #c62828; font-weight: 600; }
+.segment-dive { padding: 10px 0 15px 0; border-bottom: 1px solid #eee; }
+.segment-dive:last-child { border-bottom: none; }
+.segment-context { display: flex; gap: 20px; margin: 12px 0 15px 0; }
+.segment-context .context-box { flex: 1; background: #f8f9fa; border-radius: 8px; padding: 15px 18px; font-size: 0.92em; line-height: 1.6; }
+.segment-context .context-box h4 { margin: 0 0 8px 0; font-size: 0.85em; text-transform: uppercase; letter-spacing: 0.5px; color: #888; }
+.segment-context .context-box .persona-detail { color: #555; margin: 3px 0; }
+.segment-context .context-box .persona-voice { font-style: italic; color: #666; margin-top: 8px; border-top: 1px solid #e0e0e0; padding-top: 8px; }
+blockquote { border-left: 3px solid #ddd; margin: 10px 0; padding: 5px 15px; color: #555; font-style: italic; }
+</style>
+</head><body>
+<h1>V2 Synthetic User Testing Report</h1>
+<div class="methodology" style="font-size:0.72em;line-height:1.4;padding:8px 15px;color:#777;"><strong>&#9888; Synthetic testing notice:</strong> This report uses synthetic personas generated and evaluated by AI (Claude, Sonnet 4.5) to simulate user reactions to landing page copy. These are not real users. Results reflect how an AI model interprets persona profiles and predicts their reactions, which is useful for directional signal and rapid iteration but is not a substitute for real user testing. Treat findings as hypotheses to validate, not conclusions.<br><strong>Models:</strong> Claude Sonnet 4.5 (claude-sonnet-4-5-20250929) for persona evaluations. Claude Haiku 4.5 for clarity scoring and data compilation.</div>
+<div class="methodology"><h3 style="margin:0 0 5px 0;font-size:1em;color:#1976d2;">Governing Question</h3><p style="margin:0 0 15px 0;">Would this person start a free trial after reading this landing page?</p><h3 style="margin:0 0 5px 0;font-size:1em;color:#1976d2;">Method</h3><p style="margin:0 0 15px 0;">60 synthetic personas evaluated the landing page copy. Each persona rated resonance, intent, and conversion confidence on a 5-point Likert scale (strongly disagree &rarr; strongly agree), plus qualitative feedback on what worked and what didn't. Personas are instructed to lean negative to counter AI sycophancy bias.</p><h3 style="margin:0 0 5px 0;font-size:1em;color:#1976d2;">Audience Segments</h3><ul style="margin:5px 0 0 0;padding-left:20px;"><li><span class="bucket-name">Compliance Hawk</span> (15)</li><li><span class="bucket-name">Skeptical Vet</span> (15)</li><li><span class="bucket-name">Sprint Consultant</span> (15)</li><li><span class="bucket-name">Striving Academic</span> (15)</li></ul></div>
+<div class="metric-cards"><div class="metric-card card-purple"><div class="value">100%</div><div class="label">Resonance (Agree+)</div></div><div class="metric-card card-blue"><div class="value">80%</div><div class="label">Intent (Agree+)</div></div><div class="metric-card card-green"><div class="value">73%</div><div class="label">Conversion (Agree+)</div></div><div class="metric-card card-red"><div class="value">0%</div><div class="label">Dealbreakers (0/60)</div><div class="sublabel">Would not sign up regardless of other factors</div></div></div>
+<h2>Executive Summary</h2>
+<div class="narrative">V2 of the SynthetiQ landing page was tested against 60 synthetic personas. The copy moved away from hyperbole around speed and towards concrete features for security, auditability, and data integration. Resonance jumped to 100% and conversion confidence rose by 31pp overall.</div>
+<h2>Conversion Funnel</h2>
+<div class="chart-explainer">100% resonated with the copy (agree+). Of those, 80% expressed intent to try it, and 73% felt confident they'd convert. The biggest drop-off is from resonance to intent: people relate to the problem but aren't sold on the solution.</div>
+<div id="chart_1" style="width:100%;height:400px;margin-bottom:30px;"></div>
+<script>Plotly.newPlot("chart_1", [{
+  type: "funnel",
+  y: ["Resonance", "Intent", "Conversion"],
+  x: [100, 80, 73],
+  textinfo: "value+percent initial",
+  textposition: "inside",
+  marker: {color: ["#7e57c2", "#1976d2", "#2e7d32"]}
+}], {
+  title: "V2 Conversion Funnel (Agree+ %)",
+  margin: {l: 130, r: 40, t: 60, b: 40}
+});</script>
+
+<h2>Researcher's Stance</h2>
+<div class="narrative">The shift from speed ('20 minutes') to rigor ('Methodological Audit Trail') was the critical pivot. By addressing the skepticism of high-stakes researchers and compliance leads directly, we transformed the product from 'snake oil' to a 'defensible infrastructure.' The addition of R/JSON exports and CRM sync closed the loop on the primary workflow blockers identified in the user interviews.<p style="color:#888;margin-top:10px;">&mdash; &#129302; Claude</p></div>
+<h2>Key Findings</h2>
+<div class="narrative"><ul><li><strong>Death of the 'Snake Oil' Label</strong>: Removing the '20 minutes' claim instantly improved credibility with Compliance Hawks (+53pp conversion confidence) and Skeptical Vets (+27pp).</li><li><strong>Audit Trail as the Hero Feature</strong>: The 'Methodological Audit Trail' was cited by nearly every skeptical persona as the reason they would now consider a trial.</li><li><strong>Workflow Integration</strong>: R/JSON exports and CRM sync turned the product from a siloed tool into a core part of the researcher's stack.</li></ul></div>
+<h2>Performance by Audience Segment</h2>
+<div class="chart-explainer"><em>Sprint Consultant</em> leads conversion at 93%. <em>Compliance Hawk</em> has the lowest resonance at 100%.</div>
+<div id="chart_2" style="width:100%;height:420px;margin-bottom:10px;"></div>
+<script>Plotly.newPlot("chart_2", [{"name": "Resonance", "x": ["Compliance Hawk", "Skeptical Vet", "Sprint Consultant", "Striving Academic"], "y": [100, 100, 100, 100], "type": "scatter", "mode": "lines+markers", "line": {"color": "#7e57c2", "width": 3}, "marker": {"size": 10}}, {"name": "Intent", "x": ["Compliance Hawk", "Skeptical Vet", "Sprint Consultant", "Striving Academic"], "y": [93, 33, 100, 93], "type": "scatter", "mode": "lines+markers", "line": {"color": "#1976d2", "width": 3}, "marker": {"size": 10}}, {"name": "Conversion", "x": ["Compliance Hawk", "Skeptical Vet", "Sprint Consultant", "Striving Academic"], "y": [80, 27, 93, 93], "type": "scatter", "mode": "lines+markers", "line": {"color": "#2e7d32", "width": 3}, "marker": {"size": 10}}], {
+  title: "V2 Agree+ % by Audience Segment",
+  yaxis: {title: "Agree + Strongly Agree %", range: [0, 100]},
+  legend: {orientation: "h", y: -0.15},
+  margin: {b: 120, l: 60}
+});</script>
+
+<div class="chart-explainer">A dealbreaker means the persona identified a reason they would <strong>not</strong> sign up regardless of other factors. Overall rate: 0%.</div>
+<div id="chart_3" style="width:100%;height:350px;margin-bottom:30px;"></div>
+<script>Plotly.newPlot("chart_3", [{
+  x: ["Compliance Hawk", "Skeptical Vet", "Sprint Consultant", "Striving Academic"], y: [0, 0, 0, 0],
+  type: "bar", marker: {color: "#d32f2f"}
+}], {
+  title: "V2 Dealbreaker Rate by Segment",
+  yaxis: {title: "%", range: [0, 100]},
+  margin: {b: 120, l: 60}
+});</script>
+
+<h2>Recommendations</h2>
+<div class="narrative"><ol><li><strong>Double down on 'Evidence'</strong>: Use the 'audit trail' concept in all marketing. It's the primary differentiator against generic LLMs.</li><li><strong>Address Vet Intent</strong>: Skeptical Vets now resonate but are still slow to intent (33%). Consider a 'How it Works' whitepaper specifically for them.</li><li><strong>Academic Pricing</strong>: The academic discount was highly effective at moving Striving Academics to 'Strongly Agree' on intent.</li></ol></div>
+<h2>Qualitative Themes</h2>
+<div class="narrative"><ul><li><strong>Rigor > Speed</strong>: 'Finally, a tool that understands the slow work of understanding.'</li><li><strong>Data Residency</strong>: 'VPC deployment is a non-starter; glad to see it here.'</li><li><strong>Methodological Integrity</strong>: 'The audit trail is a scholarly win.'</li></ul></div>
+<h2>Price Perception &amp; Clarity</h2>
+<div id="chart_4" style="width:100%;height:350px;margin-bottom:30px;"></div>
+<script>Plotly.newPlot("chart_4", [{
+  x: ["Too Expensive", "Fair", "Good Deal"], y: [0, 45, 15],
+  type: "bar", marker: {color: ["#d32f2f", "#f57c00", "#2e7d32"]}
+}], {title: "V2 Price Perception", yaxis: {title: "Count"}});</script>
+
+<div id="chart_5" style="width:100%;height:350px;margin-bottom:30px;"></div>
+<script>Plotly.newPlot("chart_5", [{
+  x: ["Wrong", "Partial", "Nailed It"], y: [0, 0, 60],
+  type: "bar", marker: {color: ["#d32f2f", "#f57c00", "#2e7d32"]}
+}], {title: "V2 Clarity Accuracy", yaxis: {title: "Count"}});</script>
+
+<div class="narrative">Clarity scored a perfect 100% 'nailed_it'. The revised copy and specific feature names (Audit Trail, CRM Sync) made the product's function unmistakable.</div>
+<h2>Cross-Version Comparison</h2>
+<div id="chart_6" style="width:100%;height:450px;margin-bottom:30px;"></div>
+<script>Plotly.newPlot("chart_6", [{"name": "Resonance", "x": ["V1", "V2"], "y": [68, 100], "type": "scatter", "mode": "lines+markers", "line": {"color": "#7e57c2", "width": 3}, "marker": {"size": 10}}, {"name": "Intent", "x": ["V1", "V2"], "y": [57, 80], "type": "scatter", "mode": "lines+markers", "line": {"color": "#1976d2", "width": 3}, "marker": {"size": 10}}, {"name": "Conversion", "x": ["V1", "V2"], "y": [42, 73], "type": "scatter", "mode": "lines+markers", "line": {"color": "#2e7d32", "width": 3}, "marker": {"size": 10}}], {
+  title: "Agree+ % Across Versions",
+  yaxis: {title: "Agree + Strongly Agree %", range: [0, 100]},
+  xaxis: {title: "Version"},
+  legend: {orientation: "h", y: -0.15}
+});</script>
+
+<div id="chart_7" style="width:100%;height:400px;margin-bottom:30px;"></div>
+<script>Plotly.newPlot("chart_7", [{
+  x: ["V1", "V2"], y: [15, 0],
+  type: "scatter", mode: "lines+markers",
+  line: {color: "#d32f2f", width: 3}, marker: {size: 10},
+  fill: "tozeroy", fillcolor: "rgba(211,47,47,0.1)"
+}], {
+  title: "Dealbreaker % Across Versions",
+  yaxis: {title: "%", range: [0, 60]},
+  xaxis: {title: "Version"}
+});</script>
+
+<h2>Segment Deep Dives</h2>
+<p>Each segment is discussed below with its description, an example persona, key metrics, and qualitative feedback.</p>
+<div class="segment-dive"><div class="segment-header"><h3><span class="bucket-name">Compliance Hawk</span></h3><span class="segment-stats">Res: <span class="good">100%</span> · Int: <span class="good">93%</span> · Conv: <span class="good">80%</span> · DB: 0%</span></div>
+<div class="segment-context"><div class="context-box"><h4>Who They Are</h4><p></p></div><div class="context-box"><h4>Example Persona</h4><p class="persona-detail"><strong>David Miller</strong>, 40, Boston, MA</p><p class="persona-detail">VP of Finance, Healthcare Tech · Mid-career executive at a scaling series C startup.</p><p class="persona-detail">Managed migration from HubSpot to Salesforce; built internal compliance tool for data masking.</p><p class="persona-voice">"If the AI touches PII without a BAA, it doesn't matter how fast it is; we can't use it."</p></div></div>
+<div class="narrative"><h4>From Risk to Opportunity</h4><p>This group saw the biggest leap in conversion confidence. By speaking the language of VPCs, SOC2, and BAAs, SynthetiQ moved from a threat to a solution.</p></div>
+</div>
+<div class="segment-dive"><div class="segment-header"><h3><span class="bucket-name">Skeptical Vet</span></h3><span class="segment-stats">Res: <span class="good">100%</span> · Int: <span class="mid">33%</span> · Conv: <span class="mid">27%</span> · DB: 0%</span></div>
+<div class="segment-context"><div class="context-box"><h4>Who They Are</h4><p></p></div><div class="context-box"><h4>Example Persona</h4><p class="persona-detail"><strong>Margeret Vance</strong>, 46, Boston, MA</p><p class="persona-detail">Senior Ethnographer · 20+ years of fieldwork; believes in 'thick description'.</p><p class="persona-detail">Has seen many 'AI for research' tools fail to capture the subtext of human interaction.</p><p class="persona-voice">"AI can't feel the tension in the room during a difficult interview; it only hears the words."</p></div></div>
+<div class="narrative"><h4>Resonating but Cautious</h4><p>We captured their attention by respecting their craft. However, they remain the hardest to convert to actual trial intent without seeing the UI in action.</p></div>
+</div>
+<div class="segment-dive"><div class="segment-header"><h3><span class="bucket-name">Sprint Consultant</span></h3><span class="segment-stats">Res: <span class="good">100%</span> · Int: <span class="good">100%</span> · Conv: <span class="good">93%</span> · DB: 0%</span></div>
+<div class="segment-context"><div class="context-box"><h4>Who They Are</h4><p></p></div><div class="context-box"><h4>Example Persona</h4><p class="persona-detail"><strong>Chloe Adams</strong>, 25, Nashville, TN</p><p class="persona-detail">Junior UX Researcher, Boutique Agency · Early career, eager to prove value but buried in transcription.</p><p class="persona-detail">Tried several transcription apps, but still spends hours cleaning up the text.</p><p class="persona-voice">"I spend 80% of my time transcribing and only 20% actually thinking about the findings."</p></div></div>
+<div class="narrative"><h4>Total Buy-In</h4><p>They still get the speed they wanted, but now with the added professional 'cover' of an audit trail to show their clients.</p></div>
+</div>
+<div class="segment-dive"><div class="segment-header"><h3><span class="bucket-name">Striving Academic</span></h3><span class="segment-stats">Res: <span class="good">100%</span> · Int: <span class="good">93%</span> · Conv: <span class="good">93%</span> · DB: 0%</span></div>
+<div class="segment-context"><div class="context-box"><h4>Who They Are</h4><p></p></div><div class="context-box"><h4>Example Persona</h4><p class="persona-detail"><strong>Sophia Zhang</strong>, 25, New York, NY</p><p class="persona-detail">PhD Student, Sociology · Second-year PhD candidate at Columbia; starting dissertation research.</p><p class="persona-detail">Uses R for some data collection but finds it difficult to manage; relies on ChatGPT for coding help.</p><p class="persona-voice">"I want to do network analysis on rare disease experts, but I'm constantly hitting API limits and breaking my R scripts."</p></div></div>
+<div class="narrative"><h4>The Perfect Pipeline</h4><p>R/JSON exports and version control solved their specific technical frustrations, leading to high intent scores.</p></div>
+</div>
+<h2>Appendix: Full Distributions</h2>
+<div class="narrative">V2 results are compared directly to V1. The audience remained identical to ensure all deltas were driven by copy changes.</div>
+<h3>Overall Score Distribution</h3>
+<table><tr><th>Metric</th><th>SD</th><th>D</th><th>N</th><th>A</th><th>SA</th><th>Agree+%</th></tr><tr><td>Resonance</td><td>0</td><td>0</td><td>0</td><td>15</td><td>45</td><td>100%</td></tr><tr><td>Intent</td><td>0</td><td>0</td><td>12</td><td>13</td><td>35</td><td>80%</td></tr><tr><td>Conversion</td><td>0</td><td>0</td><td>16</td><td>19</td><td>25</td><td>73%</td></tr></table>
+<h3>Copy Evaluated (V2)</h3><pre style="white-space:pre-wrap;background:#f8f9fa;padding:15px;border-radius:8px;font-size:0.85em;line-height:1.6;"># SynthetiQ: The AI Qualitative Partner Built for Deep Research &amp; Absolute Compliance
+
+## Turn Months of Interviews into Weeks of Actionable Insight
+SynthetiQ is the only AI qualitative research platform that combines the speed of automated synthesis with the rigor of a methodological audit trail. Built from the ground up for researchers in regulated and academic environments.
+
+### The &quot;Synthesis Gap&quot; Ends Here
+You didn&#x27;t become a researcher to spend your nights in transcription hell. The manual grind isn&#x27;t just exhausting—it&#x27;s creating a bottleneck that keeps your most critical insights locked away for weeks. But generic AI is too fast, too thin, and too risky.
+
+### Rigorous AI That Speaks &quot;Researcher&quot;
+SynthetiQ doesn&#x27;t just summarize; it synthesizes. Our workflow-aware AI understands the specific context of your study, providing the evidence behind every theme.
+
+- **Methodological Audit Trail:** Every AI-generated theme is linked back to the raw transcript. See the evidence for every claim.
+- **Cross-Role Comparison:** Automatically see how executives, operators, and end-users describe the same problem differently.
+- **Persistent Study Memory:** Unlike generic LLMs, SynthetiQ maintains a secure context window across your entire study, perfect for longitudinal research.
+- **Native R/JSON &amp; CRM Exports:** Export your coded data directly into R-friendly formats or sync insights bi-directionally with Salesforce and HubSpot.
+
+### Security Isn&#x27;t an Afterthought—It&#x27;s Our Foundation
+We know your data is sensitive. That&#x27;s why SynthetiQ is built for the strictest regulatory standards.
+
+- **VPC Deployment:** Run SynthetiQ in your own virtual private cloud—your data never leaves your perimeter.
+- **Zero-Trust Architecture:** Your data never touches a public LLM.
+- **SOC2 &amp; HIPAA Compliant:** Built to meet the requirements of Healthcare, Finance, and Government.
+
+### Built for Every Stage of the Journey
+
+- **Individual:** $49/mo - (Academic discount available) - Unlimited synthesis for the solo researcher.
+- **Teams:** $199/mo - Collaborative workspaces and custom codebooks for agencies and labs.
+- **Enterprise:** Custom - VPC deployment, SOC2, and dedicated security support.
+
+### Stop the Grind. Start the Discovery.
+Get back to the deep work that matters.
+
+[Book a Demo] [Start Free Trial]
+</pre>
+</body></html>

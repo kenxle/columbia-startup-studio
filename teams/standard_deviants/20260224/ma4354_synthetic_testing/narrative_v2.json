@@ -1,0 +1,17 @@
+{
+  "version": "V2",
+  "researchers_stance": "The shift from speed ('20 minutes') to rigor ('Methodological Audit Trail') was the critical pivot. By addressing the skepticism of high-stakes researchers and compliance leads directly, we transformed the product from 'snake oil' to a 'defensible infrastructure.' The addition of R/JSON exports and CRM sync closed the loop on the primary workflow blockers identified in the user interviews.",
+  "exec_summary": "V2 of the SynthetiQ landing page was tested against 60 synthetic personas. The copy moved away from hyperbole around speed and towards concrete features for security, auditability, and data integration. Resonance jumped to 100% and conversion confidence rose by 31pp overall.",
+  "findings": "<ul><li><strong>Death of the 'Snake Oil' Label</strong>: Removing the '20 minutes' claim instantly improved credibility with Compliance Hawks (+53pp conversion confidence) and Skeptical Vets (+27pp).</li><li><strong>Audit Trail as the Hero Feature</strong>: The 'Methodological Audit Trail' was cited by nearly every skeptical persona as the reason they would now consider a trial.</li><li><strong>Workflow Integration</strong>: R/JSON exports and CRM sync turned the product from a siloed tool into a core part of the researcher's stack.</li></ul>",
+  "recommendations": "<ol><li><strong>Double down on 'Evidence'</strong>: Use the 'audit trail' concept in all marketing. It's the primary differentiator against generic LLMs.</li><li><strong>Address Vet Intent</strong>: Skeptical Vets now resonate but are still slow to intent (33%). Consider a 'How it Works' whitepaper specifically for them.</li><li><strong>Academic Pricing</strong>: The academic discount was highly effective at moving Striving Academics to 'Strongly Agree' on intent.</li></ol>",
+  "qualitative_themes": "<ul><li><strong>Rigor > Speed</strong>: 'Finally, a tool that understands the slow work of understanding.'</li><li><strong>Data Residency</strong>: 'VPC deployment is a non-starter; glad to see it here.'</li><li><strong>Methodological Integrity</strong>: 'The audit trail is a scholarly win.'</li></ul>",
+  "clarity_notes": "Clarity scored a perfect 100% 'nailed_it'. The revised copy and specific feature names (Audit Trail, CRM Sync) made the product's function unmistakable.",
+  "invalidated_segments": [],
+  "appendix_notes": "V2 results are compared directly to V1. The audience remained identical to ensure all deltas were driven by copy changes.",
+  "bucket_deep_dives": {
+    "compliance_hawk": "<h4>From Risk to Opportunity</h4><p>This group saw the biggest leap in conversion confidence. By speaking the language of VPCs, SOC2, and BAAs, SynthetiQ moved from a threat to a solution.</p>",
+    "skeptical_vet": "<h4>Resonating but Cautious</h4><p>We captured their attention by respecting their craft. However, they remain the hardest to convert to actual trial intent without seeing the UI in action.</p>",
+    "sprint_consultant": "<h4>Total Buy-In</h4><p>They still get the speed they wanted, but now with the added professional 'cover' of an audit trail to show their clients.</p>",
+    "striving_academic": "<h4>The Perfect Pipeline</h4><p>R/JSON exports and version control solved their specific technical frustrations, leading to high intent scores.</p>"
+  }
+}
