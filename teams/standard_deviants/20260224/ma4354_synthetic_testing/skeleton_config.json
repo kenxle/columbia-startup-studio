@@ -1,0 +1,26 @@
+{
+    "buckets": ["compliance_hawk", "sprint_consultant", "striving_academic", "skeptical_vet"],
+    "per_bucket": 15,
+    "females_per_bucket": 8,
+    "males_per_bucket": 7,
+    "age_bands": [[25,35], [36,45], [46,55], [56,65]],
+    "female_allocations": [
+        {"bucket": "compliance_hawk", "age_band": [36,45], "count": 2},
+        {"bucket": "compliance_hawk", "age_band": [46,55], "count": 3},
+        {"bucket": "compliance_hawk", "age_band": [56,65], "count": 3},
+        {"bucket": "sprint_consultant", "age_band": [25,35], "count": 3},
+        {"bucket": "sprint_consultant", "age_band": [36,45], "count": 3},
+        {"bucket": "sprint_consultant", "age_band": [46,55], "count": 2},
+        {"bucket": "striving_academic", "age_band": [25,35], "count": 5},
+        {"bucket": "striving_academic", "age_band": [36,45], "count": 2},
+        {"bucket": "striving_academic", "age_band": [46,55], "count": 1},
+        {"bucket": "skeptical_vet", "age_band": [46,55], "count": 4},
+        {"bucket": "skeptical_vet", "age_band": [56,65], "count": 4}
+    ],
+    "male_ages": {
+        "compliance_hawk": [40, 45, 50, 55, 60, 62, 65],
+        "sprint_consultant": [28, 32, 38, 42, 48, 52, 58],
+        "striving_academic": [26, 29, 31, 34, 40, 45, 50],
+        "skeptical_vet": [50, 52, 55, 58, 60, 63, 65]
+    }
+}

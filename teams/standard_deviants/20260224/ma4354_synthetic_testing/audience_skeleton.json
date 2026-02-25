@@ -1,0 +1,362 @@
+[
+  {
+    "person_id": 1,
+    "gender": "male",
+    "bucket": "compliance_hawk",
+    "age": 40
+  },
+  {
+    "person_id": 2,
+    "gender": "female",
+    "bucket": "compliance_hawk",
+    "age": 41
+  },
+  {
+    "person_id": 3,
+    "gender": "female",
+    "bucket": "compliance_hawk",
+    "age": 44
+  },
+  {
+    "person_id": 4,
+    "gender": "male",
+    "bucket": "compliance_hawk",
+    "age": 45
+  },
+  {
+    "person_id": 5,
+    "gender": "female",
+    "bucket": "compliance_hawk",
+    "age": 49
+  },
+  {
+    "person_id": 6,
+    "gender": "male",
+    "bucket": "compliance_hawk",
+    "age": 50
+  },
+  {
+    "person_id": 7,
+    "gender": "female",
+    "bucket": "compliance_hawk",
+    "age": 54
+  },
+  {
+    "person_id": 8,
+    "gender": "female",
+    "bucket": "compliance_hawk",
+    "age": 55
+  },
+  {
+    "person_id": 9,
+    "gender": "male",
+    "bucket": "compliance_hawk",
+    "age": 55
+  },
+  {
+    "person_id": 10,
+    "gender": "female",
+    "bucket": "compliance_hawk",
+    "age": 59
+  },
+  {
+    "person_id": 11,
+    "gender": "male",
+    "bucket": "compliance_hawk",
+    "age": 60
+  },
+  {
+    "person_id": 12,
+    "gender": "male",
+    "bucket": "compliance_hawk",
+    "age": 62
+  },
+  {
+    "person_id": 13,
+    "gender": "female",
+    "bucket": "compliance_hawk",
+    "age": 63
+  },
+  {
+    "person_id": 14,
+    "gender": "female",
+    "bucket": "compliance_hawk",
+    "age": 65
+  },
+  {
+    "person_id": 15,
+    "gender": "male",
+    "bucket": "compliance_hawk",
+    "age": 65
+  },
+  {
+    "person_id": 16,
+    "gender": "female",
+    "bucket": "sprint_consultant",
+    "age": 25
+  },
+  {
+    "person_id": 17,
+    "gender": "male",
+    "bucket": "sprint_consultant",
+    "age": 28
+  },
+  {
+    "person_id": 18,
+    "gender": "male",
+    "bucket": "sprint_consultant",
+    "age": 32
+  },
+  {
+    "person_id": 19,
+    "gender": "female",
+    "bucket": "sprint_consultant",
+    "age": 33
+  },
+  {
+    "person_id": 20,
+    "gender": "female",
+    "bucket": "sprint_consultant",
+    "age": 35
+  },
+  {
+    "person_id": 21,
+    "gender": "male",
+    "bucket": "sprint_consultant",
+    "age": 38
+  },
+  {
+    "person_id": 22,
+    "gender": "female",
+    "bucket": "sprint_consultant",
+    "age": 40
+  },
+  {
+    "person_id": 23,
+    "gender": "male",
+    "bucket": "sprint_consultant",
+    "age": 42
+  },
+  {
+    "person_id": 24,
+    "gender": "female",
+    "bucket": "sprint_consultant",
+    "age": 43
+  },
+  {
+    "person_id": 25,
+    "gender": "female",
+    "bucket": "sprint_consultant",
+    "age": 44
+  },
+  {
+    "person_id": 26,
+    "gender": "male",
+    "bucket": "sprint_consultant",
+    "age": 48
+  },
+  {
+    "person_id": 27,
+    "gender": "male",
+    "bucket": "sprint_consultant",
+    "age": 52
+  },
+  {
+    "person_id": 28,
+    "gender": "female",
+    "bucket": "sprint_consultant",
+    "age": 54
+  },
+  {
+    "person_id": 29,
+    "gender": "female",
+    "bucket": "sprint_consultant",
+    "age": 55
+  },
+  {
+    "person_id": 30,
+    "gender": "male",
+    "bucket": "sprint_consultant",
+    "age": 58
+  },
+  {
+    "person_id": 31,
+    "gender": "female",
+    "bucket": "striving_academic",
+    "age": 25
+  },
+  {
+    "person_id": 32,
+    "gender": "male",
+    "bucket": "striving_academic",
+    "age": 26
+  },
+  {
+    "person_id": 33,
+    "gender": "male",
+    "bucket": "striving_academic",
+    "age": 29
+  },
+  {
+    "person_id": 34,
+    "gender": "female",
+    "bucket": "striving_academic",
+    "age": 30
+  },
+  {
+    "person_id": 35,
+    "gender": "female",
+    "bucket": "striving_academic",
+    "age": 31
+  },
+  {
+    "person_id": 36,
+    "gender": "male",
+    "bucket": "striving_academic",
+    "age": 31
+  },
+  {
+    "person_id": 37,
+    "gender": "female",
+    "bucket": "striving_academic",
+    "age": 32
+  },
+  {
+    "person_id": 38,
+    "gender": "male",
+    "bucket": "striving_academic",
+    "age": 34
+  },
+  {
+    "person_id": 39,
+    "gender": "female",
+    "bucket": "striving_academic",
+    "age": 35
+  },
+  {
+    "person_id": 40,
+    "gender": "female",
+    "bucket": "striving_academic",
+    "age": 38
+  },
+  {
+    "person_id": 41,
+    "gender": "male",
+    "bucket": "striving_academic",
+    "age": 40
+  },
+  {
+    "person_id": 42,
+    "gender": "female",
+    "bucket": "striving_academic",
+    "age": 45
+  },
+  {
+    "person_id": 43,
+    "gender": "male",
+    "bucket": "striving_academic",
+    "age": 45
+  },
+  {
+    "person_id": 44,
+    "gender": "male",
+    "bucket": "striving_academic",
+    "age": 50
+  },
+  {
+    "person_id": 45,
+    "gender": "female",
+    "bucket": "striving_academic",
+    "age": 51
+  },
+  {
+    "person_id": 46,
+    "gender": "female",
+    "bucket": "skeptical_vet",
+    "age": 46
+  },
+  {
+    "person_id": 47,
+    "gender": "female",
+    "bucket": "skeptical_vet",
+    "age": 49
+  },
+  {
+    "person_id": 48,
+    "gender": "male",
+    "bucket": "skeptical_vet",
+    "age": 50
+  },
+  {
+    "person_id": 49,
+    "gender": "male",
+    "bucket": "skeptical_vet",
+    "age": 52
+  },
+  {
+    "person_id": 50,
+    "gender": "female",
+    "bucket": "skeptical_vet",
+    "age": 54
+  },
+  {
+    "person_id": 51,
+    "gender": "female",
+    "bucket": "skeptical_vet",
+    "age": 55
+  },
+  {
+    "person_id": 52,
+    "gender": "male",
+    "bucket": "skeptical_vet",
+    "age": 55
+  },
+  {
+    "person_id": 53,
+    "gender": "female",
+    "bucket": "skeptical_vet",
+    "age": 56
+  },
+  {
+    "person_id": 54,
+    "gender": "female",
+    "bucket": "skeptical_vet",
+    "age": 57
+  },
+  {
+    "person_id": 55,
+    "gender": "male",
+    "bucket": "skeptical_vet",
+    "age": 58
+  },
+  {
+    "person_id": 56,
+    "gender": "female",
+    "bucket": "skeptical_vet",
+    "age": 59
+  },
+  {
+    "person_id": 57,
+    "gender": "male",
+    "bucket": "skeptical_vet",
+    "age": 60
+  },
+  {
+    "person_id": 58,
+    "gender": "female",
+    "bucket": "skeptical_vet",
+    "age": 62
+  },
+  {
+    "person_id": 59,
+    "gender": "male",
+    "bucket": "skeptical_vet",
+    "age": 63
+  },
+  {
+    "person_id": 60,
+    "gender": "male",
+    "bucket": "skeptical_vet",
+    "age": 65
+  }
+]
