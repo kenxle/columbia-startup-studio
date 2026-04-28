@@ -1,0 +1,658 @@
+%PDF-1.4
+%����
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+2 0 obj
+<< /Length 255 >>
+stream
+BT
+/F1 22 Tf
+26 TL
+54 560 Td
+(TRIPABLE — Leave-behind deck \(Draft 1\)) Tj
+T*
+(Group trip planning, without the group-chat chaos.) Tj
+T*
+(https://www.tripable.pro/) Tj
+T*
+() Tj
+T*
+(Team: 4CUz \(Elizabeth Lu, Luke Liang, Rebecca Zhao, Thai On\)) Tj
+T*
+ET
+endstream
+endobj
+3 0 obj
+<< /Length 321 >>
+stream
+BT
+/F1 22 Tf
+26 TL
+54 560 Td
+(OPENING / CHANGE) Tj
+T*
+(From chaotic group chats \(buried links, silent voters, unclear decisions\)) Tj
+T*
+(To a shared trip workspace where every friend can contribute asynchronously:) Tj
+T*
+(availability + places/activities + budgets + itinerary, with voting + comments built in) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Length 328 >>
+stream
+BT
+/F1 22 Tf
+26 TL
+54 560 Td
+(PROBLEM \(1/2\): Coordination) Tj
+T*
+(Group trip planning fails because:) Tj
+T*
+(- Availability is hard to aggregate \(people respond at different times\)) Tj
+T*
+(- Decisions require consensus \(destinations, activities, lodging\)) Tj
+T*
+(- Context gets lost when planning happens in chat) Tj
+T*
+ET
+endstream
+endobj
+5 0 obj
+<< /Length 254 >>
+stream
+BT
+/F1 22 Tf
+26 TL
+54 560 Td
+(PROBLEM \(2/2\): Unequal effort) Tj
+T*
+(In most groups:) Tj
+T*
+(- One person becomes the organizer) Tj
+T*
+(- Others “react” instead of helping) Tj
+T*
+(Result: stress, slow planning, and sometimes no trip at all) Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Length 262 >>
+stream
+BT
+/F1 22 Tf
+26 TL
+54 560 Td
+(WHO HAS THIS PROBLEM) Tj
+T*
+(Primary: college + grad students + young professionals \(18–30\)) Tj
+T*
+(Typical trip types:) Tj
+T*
+(- weekend/day trips) Tj
+T*
+(- break travel \(spring/winter\)) Tj
+T*
+(- post-semester trips) Tj
+T*
+ET
+endstream
+endobj
+7 0 obj
+<< /Length 379 >>
+stream
+BT
+/F1 22 Tf
+26 TL
+54 560 Td
+(CURRENT WORKAROUNDS \(STATUS QUO\)) Tj
+T*
+(People stitch together tools:) Tj
+T*
+(- group chat for coordination) Tj
+T*
+(- Google Doc/Sheet for notes + links) Tj
+T*
+(- Doodle/When2Meet for dates) Tj
+T*
+(- Airbnb/flight links in chat) Tj
+T*
+(- Splitwise/spreadsheet for expenses) Tj
+T*
+(Pain: constant context switching + manual summarization) Tj
+T*
+ET
+endstream
+endobj
+8 0 obj
+<< /Length 371 >>
+stream
+BT
+/F1 22 Tf
+26 TL
+54 560 Td
+(WHY NOW) Tj
+T*
+(- Group travel is frequent for 18–30 \(short trips are common\)) Tj
+T*
+(- Collaboration norms are established \(shared docs/boards, comments, votes\)) Tj
+T*
+(- Yet trip planning still defaults to unstructured chat threads) Tj
+T*
+(Opportunity: a purpose-built collaborative workspace for the full planning workflow) Tj
+T*
+ET
+endstream
+endobj
+9 0 obj
+<< /Length 319 >>
+stream
+BT
+/F1 22 Tf
+26 TL
+54 560 Td
+(SOLUTION \(WHAT IT IS\)) Tj
+T*
+(Tripable is a “trip workspace” your group shares:) Tj
+T*
+(- Tabs act like blank pages for brainstorming) Tj
+T*
+(- Everyone can add options, comment, and vote) Tj
+T*
+(- The workspace turns decisions into a plan \(dates → picks → itinerary\)) Tj
+T*
+ET
+endstream
+endobj
+10 0 obj
+<< /Length 468 >>
+stream
+BT
+/F1 22 Tf
+26 TL
+54 560 Td
+(WORKSPACE MODEL \(CORE IDEA\)) Tj
+T*
+(Each trip has tabs that behave like canvases:) Tj
+T*
+(1\) Availability: mark conflicts; see group overlap) Tj
+T*
+(2\) Places & Activities: add options; attach links; comment; vote) Tj
+T*
+(3\) Budget: propose ranges; track shared costs; split plan) Tj
+T*
+(4\) Itinerary: convert winning items into a timeline) Tj
+T*
+(Design goal: collaborative + less stressful, not “one person managing”) Tj
+T*
+ET
+endstream
+endobj
+11 0 obj
+<< /Length 359 >>
+stream
+BT
+/F1 22 Tf
+26 TL
+54 560 Td
+(PRODUCT \(CORE FLOW\)) Tj
+T*
+(1\) Create trip, invite friends) Tj
+T*
+(2\) Everyone marks availability) Tj
+T*
+(3\) Add destinations/activities; vote + discuss) Tj
+T*
+(4\) Choose winners; generate a realistic itinerary) Tj
+T*
+(5\) Track/split shared expenses) Tj
+T*
+(Outcome: clear plan that the whole group helped create) Tj
+T*
+ET
+endstream
+endobj
+12 0 obj
+<< /Length 295 >>
+stream
+BT
+/F1 22 Tf
+26 TL
+54 560 Td
+(PRODUCT \(AHA MOMENT\)) Tj
+T*
+(The “aha” is participation:) Tj
+T*
+(Availability view reduces back-and-forth) Tj
+T*
+(Voting/comments turns a messy debate into visible decisions) Tj
+T*
+(Itinerary tab turns “winning ideas” into a plan you can execute) Tj
+T*
+ET
+endstream
+endobj
+13 0 obj
+<< /Length 391 >>
+stream
+BT
+/F1 22 Tf
+26 TL
+54 560 Td
+(COMPETITION \(POINT SOLUTIONS\)) Tj
+T*
+(Point tools solve slices of the workflow:) Tj
+T*
+(- Itinerary tools \(e.g., itinerary builders\)) Tj
+T*
+(- Expense tools \(Splitwise\)) Tj
+T*
+(- Polls \(simple voting\)) Tj
+T*
+(- Scheduling \(When2Meet/Doodle\)) Tj
+T*
+(Tripable’s bet: the value is in integrating the full group workflow into one shared space.) Tj
+T*
+ET
+endstream
+endobj
+14 0 obj
+<< /Length 393 >>
+stream
+BT
+/F1 22 Tf
+26 TL
+54 560 Td
+(COMPETITION \(STATUS QUO IS THE BIGGEST\)) Tj
+T*
+(The real competitor is “doing nothing new”:) Tj
+T*
+(iMessage/WhatsApp + Google Docs + links + reminders) Tj
+T*
+(Tripable wins by:) Tj
+T*
+(- making decisions legible \(votes/comments\)) Tj
+T*
+(- making participation easy \(async contribution\)) Tj
+T*
+(- reducing organizer burden \(shared ownership\)) Tj
+T*
+ET
+endstream
+endobj
+15 0 obj
+<< /Length 301 >>
+stream
+BT
+/F1 22 Tf
+26 TL
+54 560 Td
+(TRACTION \(WHAT WE HAVE\)) Tj
+T*
+(- Working MVP at tripable.pro) Tj
+T*
+(- Validated pain via user interviews in this repo \(planning is “chaotic”, “messy”, “takes forever”\)) Tj
+T*
+(- Distribution experiments queued: Reddit, Discord, campus outreach) Tj
+T*
+ET
+endstream
+endobj
+16 0 obj
+<< /Length 444 >>
+stream
+BT
+/F1 22 Tf
+26 TL
+54 560 Td
+(TRACTION \(WHAT WE NEED NEXT\)) Tj
+T*
+(We need to prove:) Tj
+T*
+(- retention across a full planning cycle \(2–6 weeks\)) Tj
+T*
+(- group participation \(not just organizers\)) Tj
+T*
+(- time-to-decision reduction vs. group chat) Tj
+T*
+(Near-term metrics \(targets\):) Tj
+T*
+(- 20 groups onboarded) Tj
+T*
+(- 50%+ of invited members contribute \(vote/comment/add\)) Tj
+T*
+(- 1 completed itinerary per group) Tj
+T*
+ET
+endstream
+endobj
+17 0 obj
+<< /Length 342 >>
+stream
+BT
+/F1 22 Tf
+26 TL
+54 560 Td
+(BUSINESS MODEL \(DRAFT\)) Tj
+T*
+(Freemium:) Tj
+T*
+(- Free: trip workspaces, voting, comments, itinerary basics) Tj
+T*
+(- Pro: premium templates, itinerary optimization, budget automation, export/share features) Tj
+T*
+(Longer-term: affiliate/booking revenue \(lodging + activities\) once usage is proven) Tj
+T*
+ET
+endstream
+endobj
+18 0 obj
+<< /Length 375 >>
+stream
+BT
+/F1 22 Tf
+26 TL
+54 560 Td
+(MARKET SIZE \(BOTTOM-UP, DRAFT\)) Tj
+T*
+(Wedge \(initial\):) Tj
+T*
+(- University communities in NYC \(clubs, cohorts, friend groups\)) Tj
+T*
+(Expansion:) Tj
+T*
+(- 18–30 group travel nationally) Tj
+T*
+(Bottom-up placeholder framework:) Tj
+T*
+(- \(# of active groups\) × \(trips per group per year\) × \(paid conversion\) × \(ARPU\)) Tj
+T*
+ET
+endstream
+endobj
+19 0 obj
+<< /Length 350 >>
+stream
+BT
+/F1 22 Tf
+26 TL
+54 560 Td
+(GO-TO-MARKET \(NEAR TERM\)) Tj
+T*
+(Channels already planned in-repo:) Tj
+T*
+(- Reddit: travel + student communities \(feedback-first posts\)) Tj
+T*
+(- Discord: student groups + travel servers) Tj
+T*
+(- On-campus: 10–20 in-person conversations to recruit groups) Tj
+T*
+(Offer: early access + influence roadmap) Tj
+T*
+ET
+endstream
+endobj
+20 0 obj
+<< /Length 234 >>
+stream
+BT
+/F1 22 Tf
+26 TL
+54 560 Td
+(TEAM) Tj
+T*
+(Elizabeth Lu — demand gen + landing page + frontend) Tj
+T*
+(Luke Liang — supabase + deployment) Tj
+T*
+(Rebecca Zhao — frontend) Tj
+T*
+(Thai On — frontend/backend integration) Tj
+T*
+ET
+endstream
+endobj
+21 0 obj
+<< /Length 384 >>
+stream
+BT
+/F1 22 Tf
+26 TL
+54 560 Td
+(THE ASK \(FOR THIS DRAFT\)) Tj
+T*
+(We’re asking for:) Tj
+T*
+(- 20 real groups to plan a trip end-to-end) Tj
+T*
+(- Feedback on the “workspace tabs” UX \(what’s missing / confusing\)) Tj
+T*
+(- Intros to student orgs / group-travel communities) Tj
+T*
+(Optional: mentors with marketplace/community growth + consumer collaboration experience) Tj
+T*
+ET
+endstream
+endobj
+22 0 obj
+<< /Type /Pages /Kids [ 23 0 R 24 0 R 25 0 R 26 0 R 27 0 R 28 0 R 29 0 R 30 0 R 31 0 R 32 0 R 33 0 R 34 0 R 35 0 R 36 0 R 37 0 R 38 0 R 39 0 R 40 0 R 41 0 R 42 0 R ] /Count 20 >>
+endobj
+23 0 obj
+<< /Type /Page
+/Parent 22 0 R
+/MediaBox [0 0 792 612]
+/Resources << /Font << /F1 1 0 R >> >>
+/Contents 2 0 R
+>>
+endobj
+24 0 obj
+<< /Type /Page
+/Parent 22 0 R
+/MediaBox [0 0 792 612]
+/Resources << /Font << /F1 1 0 R >> >>
+/Contents 3 0 R
+>>
+endobj
+25 0 obj
+<< /Type /Page
+/Parent 22 0 R
+/MediaBox [0 0 792 612]
+/Resources << /Font << /F1 1 0 R >> >>
+/Contents 4 0 R
+>>
+endobj
+26 0 obj
+<< /Type /Page
+/Parent 22 0 R
+/MediaBox [0 0 792 612]
+/Resources << /Font << /F1 1 0 R >> >>
+/Contents 5 0 R
+>>
+endobj
+27 0 obj
+<< /Type /Page
+/Parent 22 0 R
+/MediaBox [0 0 792 612]
+/Resources << /Font << /F1 1 0 R >> >>
+/Contents 6 0 R
+>>
+endobj
+28 0 obj
+<< /Type /Page
+/Parent 22 0 R
+/MediaBox [0 0 792 612]
+/Resources << /Font << /F1 1 0 R >> >>
+/Contents 7 0 R
+>>
+endobj
+29 0 obj
+<< /Type /Page
+/Parent 22 0 R
+/MediaBox [0 0 792 612]
+/Resources << /Font << /F1 1 0 R >> >>
+/Contents 8 0 R
+>>
+endobj
+30 0 obj
+<< /Type /Page
+/Parent 22 0 R
+/MediaBox [0 0 792 612]
+/Resources << /Font << /F1 1 0 R >> >>
+/Contents 9 0 R
+>>
+endobj
+31 0 obj
+<< /Type /Page
+/Parent 22 0 R
+/MediaBox [0 0 792 612]
+/Resources << /Font << /F1 1 0 R >> >>
+/Contents 10 0 R
+>>
+endobj
+32 0 obj
+<< /Type /Page
+/Parent 22 0 R
+/MediaBox [0 0 792 612]
+/Resources << /Font << /F1 1 0 R >> >>
+/Contents 11 0 R
+>>
+endobj
+33 0 obj
+<< /Type /Page
+/Parent 22 0 R
+/MediaBox [0 0 792 612]
+/Resources << /Font << /F1 1 0 R >> >>
+/Contents 12 0 R
+>>
+endobj
+34 0 obj
+<< /Type /Page
+/Parent 22 0 R
+/MediaBox [0 0 792 612]
+/Resources << /Font << /F1 1 0 R >> >>
+/Contents 13 0 R
+>>
+endobj
+35 0 obj
+<< /Type /Page
+/Parent 22 0 R
+/MediaBox [0 0 792 612]
+/Resources << /Font << /F1 1 0 R >> >>
+/Contents 14 0 R
+>>
+endobj
+36 0 obj
+<< /Type /Page
+/Parent 22 0 R
+/MediaBox [0 0 792 612]
+/Resources << /Font << /F1 1 0 R >> >>
+/Contents 15 0 R
+>>
+endobj
+37 0 obj
+<< /Type /Page
+/Parent 22 0 R
+/MediaBox [0 0 792 612]
+/Resources << /Font << /F1 1 0 R >> >>
+/Contents 16 0 R
+>>
+endobj
+38 0 obj
+<< /Type /Page
+/Parent 22 0 R
+/MediaBox [0 0 792 612]
+/Resources << /Font << /F1 1 0 R >> >>
+/Contents 17 0 R
+>>
+endobj
+39 0 obj
+<< /Type /Page
+/Parent 22 0 R
+/MediaBox [0 0 792 612]
+/Resources << /Font << /F1 1 0 R >> >>
+/Contents 18 0 R
+>>
+endobj
+40 0 obj
+<< /Type /Page
+/Parent 22 0 R
+/MediaBox [0 0 792 612]
+/Resources << /Font << /F1 1 0 R >> >>
+/Contents 19 0 R
+>>
+endobj
+41 0 obj
+<< /Type /Page
+/Parent 22 0 R
+/MediaBox [0 0 792 612]
+/Resources << /Font << /F1 1 0 R >> >>
+/Contents 20 0 R
+>>
+endobj
+42 0 obj
+<< /Type /Page
+/Parent 22 0 R
+/MediaBox [0 0 792 612]
+/Resources << /Font << /F1 1 0 R >> >>
+/Contents 21 0 R
+>>
+endobj
+43 0 obj
+<< /Type /Catalog /Pages 22 0 R >>
+endobj
+xref
+0 44
+0000000000 65535 f 
+0000000015 00000 n 
+0000000085 00000 n 
+0000000391 00000 n 
+0000000763 00000 n 
+0000001142 00000 n 
+0000001447 00000 n 
+0000001760 00000 n 
+0000002190 00000 n 
+0000002612 00000 n 
+0000002982 00000 n 
+0000003502 00000 n 
+0000003913 00000 n 
+0000004260 00000 n 
+0000004703 00000 n 
+0000005148 00000 n 
+0000005501 00000 n 
+0000005997 00000 n 
+0000006391 00000 n 
+0000006818 00000 n 
+0000007220 00000 n 
+0000007506 00000 n 
+0000007942 00000 n 
+0000008137 00000 n 
+0000008265 00000 n 
+0000008393 00000 n 
+0000008521 00000 n 
+0000008649 00000 n 
+0000008777 00000 n 
+0000008905 00000 n 
+0000009033 00000 n 
+0000009161 00000 n 
+0000009290 00000 n 
+0000009419 00000 n 
+0000009548 00000 n 
+0000009677 00000 n 
+0000009806 00000 n 
+0000009935 00000 n 
+0000010064 00000 n 
+0000010193 00000 n 
+0000010322 00000 n 
+0000010451 00000 n 
+0000010580 00000 n 
+0000010709 00000 n 
+trailer
+<< /Size 44 /Root 43 0 R >>
+startxref
+10760
+%%EOF

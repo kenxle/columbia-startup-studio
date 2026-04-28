@@ -1,0 +1,63 @@
+TRIPABLE
+Group trip planning, without the group-chat chaos.
+https://www.tripable.pro/
+
+Team: 4CUz (Elizabeth Lu, Luke Liang, Rebecca Zhao, Thai On)
+\f
+CHANGE (Raskin-style)
+From: planning trips in chaotic group chats + scattered links + silent friends
+To: a shared trip workspace where everyone participates (availability, votes, comments, itinerary)
+\f
+PROBLEM
+Planning with friends breaks down:
+- schedules don’t align
+- decisions stall (destinations / activities)
+- links get buried
+- 1 person becomes the “trip planner”
+\f
+WHY NOW
+- More group travel among students/young professionals (weekends, break trips)
+- Messaging apps are still the default “planning tool” (but not built for decisions)
+- Collaborative UI patterns are now standard (votes, comments, shared boards)
+\f
+SOLUTION
+Tripable = collaborative trip workspace
+Tabs (blank canvases you can fill together):
+1) Availability  2) Places & Activities  3) Budget  4) Itinerary
+Built-in: voting + comments + shared ownership
+\f
+PRODUCT (AHA MOMENT)
+Everyone marks availability → Tripable highlights best dates
+Then the group votes on places/activities and turns winners into a realistic itinerary
+\f
+COMPETITION / STATUS QUO
+Status quo: iMessage/WhatsApp + Google Docs + Doodle + Splitwise + “someone summarizes”
+Point solutions: TripIt/Wanderlog (itinerary), Splitwise (expenses), polls (voting)
+Tripable integrates the full group workflow in one place.
+\f
+TRACTION (EARLY)
+- MVP live: tripable.pro
+- User discovery: ~10 interviews (Trip planning pain patterns)
+- Early growth plan: Reddit + Discord + campus groups
+\f
+BUSINESS MODEL
+Freemium:
+- Free: trip workspace + voting + comments
+- Paid: itinerary optimization, budget automation, premium templates
+Future: affiliate/booking revenue (lodging, activities)
+\f
+MARKET SIZE (BOTTOM-UP, DRAFT)
+Start: students/young professionals planning 2–4 group trips/year
+Initial wedge: NYC-area university communities → expand to broader 18–30 group travel
+\f
+TEAM
+Rebecca — frontend
+Thai — frontend/backend integration
+Elizabeth — demand gen + landing page
+Luke — supabase + deployment
+\f
+THE ASK
+We’re looking for:
+- 20 active groups to plan a real trip end-to-end in Tripable
+- Feedback on the “workspace tabs” + voting/comments flow
+- Intros to campus orgs / travel communities for pilots

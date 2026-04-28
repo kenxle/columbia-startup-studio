@@ -1,0 +1,366 @@
+%PDF-1.4
+%����
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+2 0 obj
+<< /Length 221 >>
+stream
+BT
+/F1 22 Tf
+26 TL
+54 560 Td
+(TRIPABLE) Tj
+T*
+(Group trip planning, without the group-chat chaos.) Tj
+T*
+(https://www.tripable.pro/) Tj
+T*
+() Tj
+T*
+(Team: 4CUz \(Elizabeth Lu, Luke Liang, Rebecca Zhao, Thai On\)) Tj
+T*
+ET
+endstream
+endobj
+3 0 obj
+<< /Length 259 >>
+stream
+BT
+/F1 22 Tf
+26 TL
+54 560 Td
+(CHANGE \(Raskin-style\)) Tj
+T*
+(From: planning trips in chaotic group chats + scattered links + silent friends) Tj
+T*
+(To: a shared trip workspace where everyone participates \(availability, votes, comments, itinerary\)) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Length 257 >>
+stream
+BT
+/F1 22 Tf
+26 TL
+54 560 Td
+(PROBLEM) Tj
+T*
+(Planning with friends breaks down:) Tj
+T*
+(- schedules don’t align) Tj
+T*
+(- decisions stall \(destinations / activities\)) Tj
+T*
+(- links get buried) Tj
+T*
+(- 1 person becomes the “trip planner”) Tj
+T*
+ET
+endstream
+endobj
+5 0 obj
+<< /Length 323 >>
+stream
+BT
+/F1 22 Tf
+26 TL
+54 560 Td
+(WHY NOW) Tj
+T*
+(- More group travel among students/young professionals \(weekends, break trips\)) Tj
+T*
+(- Messaging apps are still the default “planning tool” \(but not built for decisions\)) Tj
+T*
+(- Collaborative UI patterns are now standard \(votes, comments, shared boards\)) Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Length 283 >>
+stream
+BT
+/F1 22 Tf
+26 TL
+54 560 Td
+(SOLUTION) Tj
+T*
+(Tripable = collaborative trip workspace) Tj
+T*
+(Tabs \(blank canvases you can fill together\):) Tj
+T*
+(1\) Availability  2\) Places & Activities  3\) Budget  4\) Itinerary) Tj
+T*
+(Built-in: voting + comments + shared ownership) Tj
+T*
+ET
+endstream
+endobj
+7 0 obj
+<< /Length 228 >>
+stream
+BT
+/F1 22 Tf
+26 TL
+54 560 Td
+(PRODUCT \(AHA MOMENT\)) Tj
+T*
+(Everyone marks availability → Tripable highlights best dates) Tj
+T*
+(Then the group votes on places/activities and turns winners into a realistic itinerary) Tj
+T*
+ET
+endstream
+endobj
+8 0 obj
+<< /Length 328 >>
+stream
+BT
+/F1 22 Tf
+26 TL
+54 560 Td
+(COMPETITION / STATUS QUO) Tj
+T*
+(Status quo: iMessage/WhatsApp + Google Docs + Doodle + Splitwise + “someone summarizes”) Tj
+T*
+(Point solutions: TripIt/Wanderlog \(itinerary\), Splitwise \(expenses\), polls \(voting\)) Tj
+T*
+(Tripable integrates the full group workflow in one place.) Tj
+T*
+ET
+endstream
+endobj
+9 0 obj
+<< /Length 226 >>
+stream
+BT
+/F1 22 Tf
+26 TL
+54 560 Td
+(TRACTION \(EARLY\)) Tj
+T*
+(- MVP live: tripable.pro) Tj
+T*
+(- User discovery: ~10 interviews \(Trip planning pain patterns\)) Tj
+T*
+(- Early growth plan: Reddit + Discord + campus groups) Tj
+T*
+ET
+endstream
+endobj
+10 0 obj
+<< /Length 266 >>
+stream
+BT
+/F1 22 Tf
+26 TL
+54 560 Td
+(BUSINESS MODEL) Tj
+T*
+(Freemium:) Tj
+T*
+(- Free: trip workspace + voting + comments) Tj
+T*
+(- Paid: itinerary optimization, budget automation, premium templates) Tj
+T*
+(Future: affiliate/booking revenue \(lodging, activities\)) Tj
+T*
+ET
+endstream
+endobj
+11 0 obj
+<< /Length 246 >>
+stream
+BT
+/F1 22 Tf
+26 TL
+54 560 Td
+(MARKET SIZE \(BOTTOM-UP, DRAFT\)) Tj
+T*
+(Start: students/young professionals planning 2–4 group trips/year) Tj
+T*
+(Initial wedge: NYC-area university communities → expand to broader 18–30 group travel) Tj
+T*
+ET
+endstream
+endobj
+12 0 obj
+<< /Length 206 >>
+stream
+BT
+/F1 22 Tf
+26 TL
+54 560 Td
+(TEAM) Tj
+T*
+(Rebecca — frontend) Tj
+T*
+(Thai — frontend/backend integration) Tj
+T*
+(Elizabeth — demand gen + landing page) Tj
+T*
+(Luke — supabase + deployment) Tj
+T*
+ET
+endstream
+endobj
+13 0 obj
+<< /Length 280 >>
+stream
+BT
+/F1 22 Tf
+26 TL
+54 560 Td
+(THE ASK) Tj
+T*
+(We’re looking for:) Tj
+T*
+(- 20 active groups to plan a real trip end-to-end in Tripable) Tj
+T*
+(- Feedback on the “workspace tabs” + voting/comments flow) Tj
+T*
+(- Intros to campus orgs / travel communities for pilots) Tj
+T*
+ET
+endstream
+endobj
+14 0 obj
+<< /Type /Pages /Kids [ 15 0 R 16 0 R 17 0 R 18 0 R 19 0 R 20 0 R 21 0 R 22 0 R 23 0 R 24 0 R 25 0 R 26 0 R ] /Count 12 >>
+endobj
+15 0 obj
+<< /Type /Page
+/Parent 14 0 R
+/MediaBox [0 0 792 612]
+/Resources << /Font << /F1 1 0 R >> >>
+/Contents 2 0 R
+>>
+endobj
+16 0 obj
+<< /Type /Page
+/Parent 14 0 R
+/MediaBox [0 0 792 612]
+/Resources << /Font << /F1 1 0 R >> >>
+/Contents 3 0 R
+>>
+endobj
+17 0 obj
+<< /Type /Page
+/Parent 14 0 R
+/MediaBox [0 0 792 612]
+/Resources << /Font << /F1 1 0 R >> >>
+/Contents 4 0 R
+>>
+endobj
+18 0 obj
+<< /Type /Page
+/Parent 14 0 R
+/MediaBox [0 0 792 612]
+/Resources << /Font << /F1 1 0 R >> >>
+/Contents 5 0 R
+>>
+endobj
+19 0 obj
+<< /Type /Page
+/Parent 14 0 R
+/MediaBox [0 0 792 612]
+/Resources << /Font << /F1 1 0 R >> >>
+/Contents 6 0 R
+>>
+endobj
+20 0 obj
+<< /Type /Page
+/Parent 14 0 R
+/MediaBox [0 0 792 612]
+/Resources << /Font << /F1 1 0 R >> >>
+/Contents 7 0 R
+>>
+endobj
+21 0 obj
+<< /Type /Page
+/Parent 14 0 R
+/MediaBox [0 0 792 612]
+/Resources << /Font << /F1 1 0 R >> >>
+/Contents 8 0 R
+>>
+endobj
+22 0 obj
+<< /Type /Page
+/Parent 14 0 R
+/MediaBox [0 0 792 612]
+/Resources << /Font << /F1 1 0 R >> >>
+/Contents 9 0 R
+>>
+endobj
+23 0 obj
+<< /Type /Page
+/Parent 14 0 R
+/MediaBox [0 0 792 612]
+/Resources << /Font << /F1 1 0 R >> >>
+/Contents 10 0 R
+>>
+endobj
+24 0 obj
+<< /Type /Page
+/Parent 14 0 R
+/MediaBox [0 0 792 612]
+/Resources << /Font << /F1 1 0 R >> >>
+/Contents 11 0 R
+>>
+endobj
+25 0 obj
+<< /Type /Page
+/Parent 14 0 R
+/MediaBox [0 0 792 612]
+/Resources << /Font << /F1 1 0 R >> >>
+/Contents 12 0 R
+>>
+endobj
+26 0 obj
+<< /Type /Page
+/Parent 14 0 R
+/MediaBox [0 0 792 612]
+/Resources << /Font << /F1 1 0 R >> >>
+/Contents 13 0 R
+>>
+endobj
+27 0 obj
+<< /Type /Catalog /Pages 14 0 R >>
+endobj
+xref
+0 28
+0000000000 65535 f 
+0000000015 00000 n 
+0000000085 00000 n 
+0000000357 00000 n 
+0000000667 00000 n 
+0000000975 00000 n 
+0000001349 00000 n 
+0000001683 00000 n 
+0000001962 00000 n 
+0000002341 00000 n 
+0000002618 00000 n 
+0000002936 00000 n 
+0000003234 00000 n 
+0000003492 00000 n 
+0000003824 00000 n 
+0000003963 00000 n 
+0000004091 00000 n 
+0000004219 00000 n 
+0000004347 00000 n 
+0000004475 00000 n 
+0000004603 00000 n 
+0000004731 00000 n 
+0000004859 00000 n 
+0000004987 00000 n 
+0000005116 00000 n 
+0000005245 00000 n 
+0000005374 00000 n 
+0000005503 00000 n 
+trailer
+<< /Size 28 /Root 27 0 R >>
+startxref
+5554
+%%EOF

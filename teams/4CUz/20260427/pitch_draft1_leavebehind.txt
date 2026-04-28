@@ -1,0 +1,137 @@
+TRIPABLE — Leave-behind deck (Draft 1)
+Group trip planning, without the group-chat chaos.
+https://www.tripable.pro/
+
+Team: 4CUz (Elizabeth Lu, Luke Liang, Rebecca Zhao, Thai On)
+\f
+OPENING / CHANGE
+From chaotic group chats (buried links, silent voters, unclear decisions)
+To a shared trip workspace where every friend can contribute asynchronously:
+availability + places/activities + budgets + itinerary, with voting + comments built in
+\f
+PROBLEM (1/2): Coordination
+Group trip planning fails because:
+- Availability is hard to aggregate (people respond at different times)
+- Decisions require consensus (destinations, activities, lodging)
+- Context gets lost when planning happens in chat
+\f
+PROBLEM (2/2): Unequal effort
+In most groups:
+- One person becomes the organizer
+- Others “react” instead of helping
+Result: stress, slow planning, and sometimes no trip at all
+\f
+WHO HAS THIS PROBLEM
+Primary: college + grad students + young professionals (18–30)
+Typical trip types:
+- weekend/day trips
+- break travel (spring/winter)
+- post-semester trips
+\f
+CURRENT WORKAROUNDS (STATUS QUO)
+People stitch together tools:
+- group chat for coordination
+- Google Doc/Sheet for notes + links
+- Doodle/When2Meet for dates
+- Airbnb/flight links in chat
+- Splitwise/spreadsheet for expenses
+Pain: constant context switching + manual summarization
+\f
+WHY NOW
+- Group travel is frequent for 18–30 (short trips are common)
+- Collaboration norms are established (shared docs/boards, comments, votes)
+- Yet trip planning still defaults to unstructured chat threads
+Opportunity: a purpose-built collaborative workspace for the full planning workflow
+\f
+SOLUTION (WHAT IT IS)
+Tripable is a “trip workspace” your group shares:
+- Tabs act like blank pages for brainstorming
+- Everyone can add options, comment, and vote
+- The workspace turns decisions into a plan (dates → picks → itinerary)
+\f
+WORKSPACE MODEL (CORE IDEA)
+Each trip has tabs that behave like canvases:
+1) Availability: mark conflicts; see group overlap
+2) Places & Activities: add options; attach links; comment; vote
+3) Budget: propose ranges; track shared costs; split plan
+4) Itinerary: convert winning items into a timeline
+Design goal: collaborative + less stressful, not “one person managing”
+\f
+PRODUCT (CORE FLOW)
+1) Create trip, invite friends
+2) Everyone marks availability
+3) Add destinations/activities; vote + discuss
+4) Choose winners; generate a realistic itinerary
+5) Track/split shared expenses
+Outcome: clear plan that the whole group helped create
+\f
+PRODUCT (AHA MOMENT)
+The “aha” is participation:
+Availability view reduces back-and-forth
+Voting/comments turns a messy debate into visible decisions
+Itinerary tab turns “winning ideas” into a plan you can execute
+\f
+COMPETITION (POINT SOLUTIONS)
+Point tools solve slices of the workflow:
+- Itinerary tools (e.g., itinerary builders)
+- Expense tools (Splitwise)
+- Polls (simple voting)
+- Scheduling (When2Meet/Doodle)
+Tripable’s bet: the value is in integrating the full group workflow into one shared space.
+\f
+COMPETITION (STATUS QUO IS THE BIGGEST)
+The real competitor is “doing nothing new”:
+iMessage/WhatsApp + Google Docs + links + reminders
+Tripable wins by:
+- making decisions legible (votes/comments)
+- making participation easy (async contribution)
+- reducing organizer burden (shared ownership)
+\f
+TRACTION (WHAT WE HAVE)
+- Working MVP at tripable.pro
+- Validated pain via user interviews in this repo (planning is “chaotic”, “messy”, “takes forever”)
+- Distribution experiments queued: Reddit, Discord, campus outreach
+\f
+TRACTION (WHAT WE NEED NEXT)
+We need to prove:
+- retention across a full planning cycle (2–6 weeks)
+- group participation (not just organizers)
+- time-to-decision reduction vs. group chat
+Near-term metrics (targets):
+- 20 groups onboarded
+- 50%+ of invited members contribute (vote/comment/add)
+- 1 completed itinerary per group
+\f
+BUSINESS MODEL (DRAFT)
+Freemium:
+- Free: trip workspaces, voting, comments, itinerary basics
+- Pro: premium templates, itinerary optimization, budget automation, export/share features
+Longer-term: affiliate/booking revenue (lodging + activities) once usage is proven
+\f
+MARKET SIZE (BOTTOM-UP, DRAFT)
+Wedge (initial):
+- University communities in NYC (clubs, cohorts, friend groups)
+Expansion:
+- 18–30 group travel nationally
+Bottom-up placeholder framework:
+- (# of active groups) × (trips per group per year) × (paid conversion) × (ARPU)
+\f
+GO-TO-MARKET (NEAR TERM)
+Channels already planned in-repo:
+- Reddit: travel + student communities (feedback-first posts)
+- Discord: student groups + travel servers
+- On-campus: 10–20 in-person conversations to recruit groups
+Offer: early access + influence roadmap
+\f
+TEAM
+Elizabeth Lu — demand gen + landing page + frontend
+Luke Liang — supabase + deployment
+Rebecca Zhao — frontend
+Thai On — frontend/backend integration
+\f
+THE ASK (FOR THIS DRAFT)
+We’re asking for:
+- 20 real groups to plan a trip end-to-end
+- Feedback on the “workspace tabs” UX (what’s missing / confusing)
+- Intros to student orgs / group-travel communities
+Optional: mentors with marketplace/community growth + consumer collaboration experience
