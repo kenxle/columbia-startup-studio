@@ -2,7 +2,7 @@
 
 **Columbia University | Spring 2026**
 
-**Instructors:** Lydia Chilton & Ken St. Clair
+**Instructors:** Ken St. Clair
 
 ---
 
